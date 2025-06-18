@@ -26,7 +26,7 @@ fn solve_fun_optomized_better_looking(s: String) -> bool {
     return true;
 }
 
-
+#[allow(unused)]
 fn solve_fun(s: String) -> bool {
     let s = s.chars().collect::<Vec<char>>();
     
